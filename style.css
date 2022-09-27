@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0rem 2.5rem;
+    z-index: 1;
+}
+
+.barra{
+    width: 100%;
+    background-color: rgb(91, 82, 212);
+}
+
+.navbar .menu{
+    margin-right: 120px;
+}
+
+/* Termina barra de navegacion*/
+
+/*conmienza container main*/
+
+.center{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(19, 107, 179);
+}
+
+.center .barra-derecha{
+    width: 15%;
+    height: 800px;
+    background-color: blueviolet;
+}
