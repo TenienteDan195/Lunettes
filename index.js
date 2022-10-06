@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
  // Variables
 const baseDeDatos = [
@@ -141,12 +142,14 @@ function calcularTotal() {
 
 
 function vaciarCarrito() {
+    
 
     carrito = [];
 
     renderizarCarrito();
 
     localStorage.clear();
+    
 }
 
 function guardarCarritoEnLocalStorage () {
@@ -169,4 +172,15 @@ cargarCarritoDeLocalStorage();
 renderizarProductos();
 renderizarCarrito();
 
+
+
 });
+
+
+
+let boton = document.getElementById("click")
+    boton.addEventListener("click", () => {
+        Swal.fire('Salvas te tu compra')
+    });
+
+   
